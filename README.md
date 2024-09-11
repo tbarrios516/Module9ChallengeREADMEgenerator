@@ -1,34 +1,35 @@
-# Module 6 Challenge Node.js
+# Module 9 Challenge Node.js
 
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
 
-## Description
-writing a program to generate a professional README file
+## User Story
 
-## Table of Contents
-- [Installation](#installation)
-- [Usage](#usage)
-- [License](#license)
-- [Contributing](#contributing)
-- [Tests](#tests)
-- [Questions](#questions)
+```md
+AS A developer
+I WANT a README generator
+SO THAT I can quickly create a professional README for a new project
+```
 
-## Installation
-open intergrated terminal and running the command "nmp i"
+## Acceptance Criteria
 
-## Usage
-to generate README files for future projects
+```md
+GIVEN a command-line application that accepts user input
+WHEN I am prompted for information about my application repository
+THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
+WHEN I enter my project title
+THEN this is displayed as the title of the README
+WHEN I enter a description, installation instructions, usage information, contribution guidelines, and test instructions
+THEN this information is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests
+WHEN I choose a license for my application from a list of options
+THEN a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under
+WHEN I enter my GitHub username
+THEN this is added to the section of the README entitled Questions, with a link to my GitHub profile
+WHEN I enter my email address
+THEN this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions
+WHEN I click on the links in the Table of Contents
+THEN I am taken to the corresponding section of the README
+```
+## VIDEO WALKTHROUGH
+https://drive.google.com/drive/folders/1M5a0wnZNgs-lJPMnwP288yFk05TLH4ET?usp=sharing
 
-## License
-This project is licensed under the MIT license.
-
-## Contributing
-fixing bugs
-
-## Tests
-open intergrated terminal and run the command "node index.js"
-
-## Questions
-For any questions, please contact me:
-- GitHub: [tbarrios516](https://github.com/tbarrios516)
-- Email: [tylerbarrios@gmail.com]
+<img width="1496" alt="Screenshot 2024-09-11 at 4 39 33 PM" src="https://github.com/user-attachments/assets/a96e13ce-c48b-477f-8bb4-04a2dfea1653">
